@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+#main-intro {
+    text-transform: uppercase;
+    font-size: 70px;
+    padding-top: 0;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(img/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro-text-box {
+    position: absolute;  /*since it is inside the fluid grid we need to set position to absolute*/
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
