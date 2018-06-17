@@ -28,9 +28,22 @@ html {
     margin: 0 auto;
 }
 
-h1, h3 {
+h1, 
+h2, 
+h3 {
     letter-spacing: 2px;
     word-spacing: 5px;
+}
+
+section {
+    
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    border: 2px solid #000;
+
 }
 
 
@@ -69,7 +82,6 @@ h1, h3 {
     background-color: #977713;
 }
 
-
 .btn-resume:hover,
 .btn-resume:active {
     border: 1px solid #977713;
@@ -89,6 +101,7 @@ h1, h3 {
 /* ------------------ */
 
 #main-intro {
+    font-weight: 550;
     text-transform: uppercase;
     font-size: 350%;
     padding-top: 0;
@@ -147,6 +160,11 @@ header {
     border-bottom: 2px solid #d3a71b;
     color: #d3a71b;
 }
+
+#hobby {
+    
+}
+
 
 
 
