@@ -35,9 +35,6 @@ h3 {
     word-spacing: 5px;
 }
 
-section {
-    
-}
 
 h2 {
     font-size: 180%;
@@ -161,12 +158,15 @@ header {
     color: #d3a71b;
 }
 
-#hobby {
-    
+/* ------------------ */
+/* BODY */
+/* ------------------ */
+
+
+section {
+    background-color: #d3a71b;
+    height: 50vh;
 }
-
-
-
 
 
 
