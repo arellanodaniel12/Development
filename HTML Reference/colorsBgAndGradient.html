@@ -3,7 +3,7 @@
 	<title>Colors, Background & Gradients</title>
 	<style>
 		#rounded1 {
-			background: red;
+			background: rgba(255, 0, 0, 0.3);
 			color: white;
 			width: 200px;
 			height: 200px;
@@ -12,7 +12,7 @@
 		}
 
 		#rounded2 {
-			background: red;
+			background: hsl(120, 100%, 50%);
 			color: white;
 			width: 200px;
 			height: 200px;
@@ -22,19 +22,61 @@
 		}
 
 		#rounded3 {
-			background: red;
+			background: hsla(120, 100%, 50%, 0.3);
 			color: white;
 			width: 200px;
 			height: 200px;
 			padding: 30px;
 			border-radius: 50%;
 			border: 3px black solid;
+		}
+		
+		img {
+			border-radius: 50%;
+		}	
 
 		#border-img {
 			border: 10px solid transparent;
 			padding: 15px;
-			border-image: url(Colors, Backgrounds & Gradients/border.jpg) 30 round;
+			border-image: url(border.png) 15 round;
 		}
+
+		#my-bg {
+			background-image: url(img_flwr.gif), url(paper.gif);
+			background-position: right bottom, left top;
+			background-repeat: no-repeat, repeat;
+			padding: 15px 200px 15px 15px;
+			background-size: 300px 200px;
+		}
+
+		#grad1 {
+			width: 500px;
+			height: 200px;
+			background: blue;
+			background: linear-gradient(blue, black, white);
+		}
+
+		#grad2 {
+			width: 500px;
+			height: 200px;
+			background: blue;
+			background: linear-gradient(to right, gray, white);
+		}
+
+		#grad3 {
+			width: 500px;
+			height: 200px;
+			background: blue;
+			background: linear-gradient(to bottom right, gray, white);
+		}
+
+		#grad4 {
+			width: 500px;
+			height: 200px;
+			background: blue;
+			background: repeating-radial-gradient(circle, white 45%, gray 50% , black);
+		}
+
 
 	</style>
 </head>
@@ -45,9 +87,22 @@
 	<br>
 	<div id="rounded3">Rounded Corners</div>
 	<br>
-	<img src="Colors, Backgrounds & Gradients/bird.jpg">
+	<img src="bird.jpg">
 	<br>
 	<div id="border-img">This div uses an image border</div>
+	<br>
+	<div id="my-bg">
+		<h1>Welcome</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas feugiat eu magna nec convallis. Vivamus sem neque, fermentum non laoreet sed, consequat in nulla. Morbi ligula sem, rutrum eu nisl et, condimentum posuere odio. Nam cursus ac purus ac lobortis. Fusce eget interdum augue. Phasellus blandit, sapien sed tincidunt auctor, ante urna ullamcorper risus, vitae vehicula nisi erat vitae urna. Nunc diam tortor, semper sed ullamcorper vel, rhoncus vitae lectus. Morbi non diam vel elit porta dapibus. Integer nec dolor mi. Nunc mollis justo nisi, eu semper enim sodales quis. Quisque in sodales risus. Nulla facilisi. Nullam iaculis, quam non blandit egestas, lectus lacus cursus turpis, vel euismod neque ligula sed nunc. Duis tristique, mauris ut pretium finibus, urna tellus suscipit nisi, vel aliquam tortor urna a magna. Mauris vel mattis nisi. Maecenas mollis eros vitae dapibus posuere.
+		</p>
+		<p>Cras dignissim in purus id facilisis. Proin nec lectus eu sapien maximus tempus vel at tortor. Duis nec lectus nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vestibulum faucibus tortor, eu maximus mauris consectetur a. Fusce nec eros sollicitudin odio commodo euismod. Nulla id lacus non odio sodales tempus vitae quis quam. Donec accumsan tincidunt placerat. Fusce gravida nulla et dolor maximus, fermentum porta lorem rutrum. Morbi mauris arcu, faucibus at blandit id, viverra at lorem. Nulla tincidunt augue a risus facilisis varius.
+		</p>
+	</div>
+	<br>
+	<div id="grad1"></div><br>
+	<div id="grad2"></div><br>
+	<div id="grad3"></div><br>
+	<div id="grad4"></div><br>
 
 </body>
 </html>
