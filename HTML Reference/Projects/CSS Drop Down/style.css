@@ -43,10 +43,99 @@ body {
     
 }
 
-.menu ul li #b {
+.menu ul li#a {
+    margin-left: 0;
+}
+
+.menu ul li#b {
     margin-left: 150px;
 }
 
-.menu ul li #c {
+.menu ul li#c {
     margin-left: 300px;
 }
+
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #303030;
+}
+
+.menu ul li div {
+    text-align: left;
+    font: normal 11px arial;
+    line-height: 19px;
+    margin: 10px 0;
+}
+
+.menu ul li div a {
+    display: inline;
+    
+}
+
+.menu ul li div a:hover {
+    text-decoration: underline;
+}
+
+.menu ul li div hr:hover {
+    border: none;
+    border-top: 1px dotted #a0a0a0;;
+    margin: 5px 0;
+    width: 95%;
+}
+
+
+.menu ul li:hover:target {
+    display: inherit;
+    padding: 0;
+    height: 155px;
+    width: 200px;
+    padding-left: 15px;
+    opacity: .97;
+    transition: height 0.4s ease-in;
+    
+}
+
+.menu ul li#a:hover:target {
+    background: #f0f9ff;
+}
+
+.menu ul li#b:hover:target {
+    background: #ffffd6;
+}
+
+.menu ul li#c:hover:target {
+    background: #f8ffe8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
