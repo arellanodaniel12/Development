@@ -44,3 +44,28 @@
     border-bottom: #fff 3px solid;
     margin-bottom: 0;
 }
+
+.box {
+    text-align: center;
+    padding: 20px 0 0 0; 
+    border-style: inset;
+}
+
+.box .fas {
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.section-a {
+    background: #313461;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.section-a h1 {
+    font-size: 50px;
+}
+
+
